@@ -9,8 +9,10 @@
 .para-description {
     font-size: 16px;
     color: rgb(13, 19, 33);
-    letter-spacing: 1px;
-    word-spacing: 6px;
+    opacity: 0.7;
+    letter-spacing: 0%;
+    line-height: 26px;
+    /* word-spacing: 6px; */
 }
 
 .btn-primary {
@@ -123,6 +125,7 @@
     justify-content: start;
     gap: 40px;
 }
+
 /* my inspiration styles start */
 .my-inspiration-section {
     width: 80%;
@@ -132,6 +135,21 @@
 .inspiration {
 
     text-align: center;
+}
+
+.inspiration-video {
+    width: 100%;
+    margin: 50px 0px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    padding: 30px;
+    border-radius: 16px;
+
+
+}
+
+.inspiration-video>video {
+    width: 100%;
+    border-radius: 16px;
 }
 
 /* my current target styles start */
