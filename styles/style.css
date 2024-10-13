@@ -140,11 +140,10 @@
 /* my inspiration styles start */
 .my-inspiration-section {
     width: 80%;
-    margin: 0px auto;
+    margin: 50px auto;
 }
 
 .inspiration {
-
     text-align: center;
 }
 
@@ -166,7 +165,7 @@
 /* my current target styles start */
 .my-current-target-section {
     width: 80%;
-    margin: 0px auto;
+    margin: 100px auto;
 }
 
 .current-target-content {
@@ -177,16 +176,23 @@
 .current-target-card-container {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 25px;
     margin-bottom: 80px;
 }
 
-.card {
-    background-color: rgba(255, 192, 203, 0.226);
+.card-1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
     padding: 40px;
-    border-radius: 15px;
 }
 
+.card-2 {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.card-3 {
+    background: rgba(255, 223, 0, 0.05);
+}
 .card-title {
     font-size: 24px;
     font-weight: bolder;
@@ -194,7 +200,7 @@
 }
 
 .card-anchor {
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 .card-anchor a {
