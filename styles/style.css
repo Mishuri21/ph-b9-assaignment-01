@@ -5,14 +5,13 @@
     font-family: "Azeret Mono", monospace;
 }
 
-/* shared styles */
+/* shared styles code */
 .para-description {
     font-size: 16px;
     color: rgb(13, 19, 33);
     opacity: 0.7;
     letter-spacing: 0%;
     line-height: 26px;
-    /* word-spacing: 6px; */
 }
 
 .btn-primary {
@@ -41,13 +40,12 @@
 
 .nav-btn {
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: 600;
     background-color: white;
     padding: 20px 22px;
-    border: 1px solid black;
+    border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
-    letter-spacing: 1px;
-    word-spacing: 6px;
+    opacity: 0.8;
 }
 
 /* navbar styles end */
@@ -55,31 +53,29 @@
 /* banner styles start */
 .banner {
     background: url(../images/Hero-bg.png) no-repeat;
+    background-position: center;
     background-size: cover;
     text-align: center;
-    padding: 25px 20px;
+    padding: 50px 0px;
 }
 
 .banner-title {
-    font-size: 48px;
     color: rgb(13, 19, 33);
-    word-spacing: 20px;
-    margin: 40px 0px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin: 24px 0px;
 }
 
 .banner-btn {
-    font-size: 22px;
-    font-weight: bolder;
-    background-color: black;
-    color: white;
-    padding: 20px 25px;
-    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
     border-radius: 8px;
-    letter-spacing: 1px;
-    word-spacing: 6px;
-    margin: 40px 0px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+    margin: 32px 0px;
 }
-
 /* banner & header section styles end **************************************************************/
 
 /* main section styles start */
