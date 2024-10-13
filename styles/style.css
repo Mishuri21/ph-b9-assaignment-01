@@ -6,6 +6,11 @@
 }
 
 /* shared styles code */
+.section-title {
+    font-size: 35px;
+    margin: 25px 0px;
+}
+
 .para-description {
     font-size: 16px;
     color: rgb(13, 19, 33);
@@ -15,12 +20,13 @@
 }
 
 .btn-primary {
+    color: rgb(13, 19, 33);
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: 500;
     background-color: white;
-    padding: 18px 25px;
+    padding: 12px 20px 12px 20px;
     border: 0.5px solid black;
-    /* border-radius: 8px; */
+    opacity: 0.7;
     letter-spacing: 1px;
     word-spacing: 6px;
 }
@@ -75,15 +81,23 @@
     background: rgb(13, 19, 33);
     padding: 21px 24px 21px 24px;
     margin: 32px 0px;
+    cursor: pointer;
+    transition: 0.5s;
 }
-/* banner & header section styles end **************************************************************/
 
-/* main section styles start */
+.banner-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+}
+
+/* bannernsection styles end **************************************************************/
+
+/* main styles start */
 .web-dev-main {
-    /* border: 2px solid orange; */
+    width: 80%;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    margin: 50px 150px;
+    margin: 80px auto;
     padding: 25px 0px;
 }
 
@@ -92,10 +106,11 @@
     margin: 60px 0px;
 }
 
-.section-title {
-    font-size: 35px;
-    margin: 25px 0px;
-    /* padding-top: 30px; */
+.web-dev-box-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
 }
 
 .box-description {
